@@ -304,13 +304,14 @@ header {
   border-bottom: solid 1px rgba(255, 255, 255, 0.2);
   position: relative;
   width: 1170px;
-  margin: 0 50px;
+  margin: 0 10px;
   transition: padding 300ms ease-in-out;
 
   a {
     color: $txt-light;
     text-transform: uppercase;
     font-size: $nav-font-size;
+    font-weight: bold;
 
     &.login {
       margin-right: 20px;
@@ -660,14 +661,15 @@ Engagement Pics
 ========================================================================== */
 #eng-pics {
   img {
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 300px;
     -moz-transition: all 300ms ease-in-out;
     -o-transition: all 300ms ease-in-out;
     -webkit-transition: all 300ms ease-in-out;
     transition: all 300ms ease-in-out;
   }
   .img-wrap {
+    margin-top: 20px;
     position: relative;
     overflow: hidden;
     border-radius: 4px;

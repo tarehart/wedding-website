@@ -19,6 +19,11 @@
 
 /* Responsive nav kicks in */
 @media screen and (max-width: 991px) {
+    #eng-pics img {
+        width: 100%;
+        height: auto;
+    }
+
     header {
         width: 90%;
         padding-left: 25px;
@@ -221,7 +226,7 @@
     .events .rightcol {
         padding: 0 20px;
     }
-    
+
     #eng-pics .img-wrap {
         border-radius: 0;
     }
@@ -229,7 +234,7 @@
     #map-content-wrapper {
         margin-bottom: 40px;
     }
-    
+
     #map-content {
         margin-top: 0;
         padding: 35px;
@@ -261,7 +266,7 @@
     #map-content-wrapper {
         margin-bottom: 0;
     }
-    
+
     footer ul.footer-group {
         border-top: none;
     }
@@ -285,7 +290,7 @@
 }
 
 @media screen and (max-width: 480px) {
-    
+
     .hero .hero-content img {
         width: 65%;
     }
