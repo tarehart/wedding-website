@@ -59,6 +59,9 @@ section .header {
 .section-padding {
   padding: $section-padding;
 }
+.spaced-section {
+  margin-top: 150px;
+}
 .section-border {
   border-bottom: 1px solid $keyline-color;
 }
