@@ -38,6 +38,10 @@ $base-line-height: 29px;
 /* ==========================================================================
 Typography
 ========================================================================== */
+body {
+    font-size: $font-size-p;
+}
+
 p {
   font-size: $font-size-p;
   line-height: $base-line-height;
